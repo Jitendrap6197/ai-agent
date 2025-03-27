@@ -42,4 +42,4 @@ def chat_with_deepseek(request: ChatRequest):
 # ✅ Run FastAPI with Uvicorn
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.3", port=8080)
+    uvicorn.run(app, host="127.0.0.4", port=8080)
